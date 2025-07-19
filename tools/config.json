@@ -1,0 +1,26 @@
+{
+    "project":"Content factory",
+    "plugins" : [
+        {
+            "id":"library",
+            "title":"Block Library",
+            "environments":["edit"],
+            "isPalette":true,
+            "paletteRect":"top: 50px; bottom: 210px; left: 20px; height: calc(100vh-6-0px); width: 800px;",
+            "url":"/tools/sidekick/library.html",
+            "includePaths":["**.docx**"],
+            "passConfig":true
+        },
+        {
+            "id":"assets-library",
+            "title":"AEM Assets",
+            "environments":["edit"],
+            "isPalette":true,
+            "paletteRect":"top: 50px; bottom: 20px; left: 20px; height: 700px; width: 700px;",
+            "url":"https://experience.adobe.com/solutions/CQ-assets-selectors/static-assets/resources/franklin/asset-selector.html",
+            "includePaths":["**.docx**"],
+            "passConfig":true,
+            "rail":false
+        }
+    ]
+}
